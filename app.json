@@ -1,0 +1,93 @@
+{
+  "expo": {
+    "name": "True Shuffle",
+    "slug": "trueshuffle",
+    "description": "Experience true randomness in your music. Break free from algorithmic bubbles with mathematically pure shuffle using the Fisher-Yates algorithm.",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "trueshuffle",
+    "userInterfaceStyle": "dark",
+    "primaryColor": "#1DB954",
+    "backgroundColor": "#000000",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.trueshuffleapp.trueshuffleapp",
+      "buildNumber": "3",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "spotify",
+          "spotify",
+          "spotify",
+          "spotify"
+        ],
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        },
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon/foreground.png",
+        "backgroundImage": "./assets/images/adaptive-icon/background.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.trueshuffleapp.trueshuffleapp",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.WAKE_LOCK",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.INTERNET",
+        "android.permission.WAKE_LOCK",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "name": "True Shuffle",
+      "shortName": "True Shuffle",
+      "lang": "en",
+      "scope": "/",
+      "themeColor": "#1DB954",
+      "backgroundColor": "#000000"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser",
+      "expo-audio"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c43e15d6-3e2f-4d3a-afa6-3de1d46433bb"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c43e15d6-3e2f-4d3a-afa6-3de1d46433bb"
+    }
+  }
+}
