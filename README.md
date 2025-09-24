@@ -13,8 +13,8 @@ Experience true randomness in your music. Break free from algorithmic bubbles wi
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd true_shuffle
+   git clone https://github.com/vuciv/true-random-shuffle.git
+   cd true-random-shuffle
    ```
 
 2. **Install dependencies**
@@ -55,8 +55,8 @@ The app can be deployed to various platforms:
 
 ## License
 
-This project is private and not licensed for public use.
+This project is open source and available under the MIT License.
 
 ## Contributing
 
-This is a private project. Please contact the repository owner for contribution guidelines.
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
