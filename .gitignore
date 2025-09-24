@@ -39,5 +39,13 @@ yarn-error.*
 config/secrets.json
 secrets.json
 
+# development environment files
+.bolt/
+.netlify/
+
+# IDE and editor files
+.vscode/
+.idea/
+
 # typescript
 *.tsbuildinfo
