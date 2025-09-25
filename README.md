@@ -12,17 +12,20 @@ Experience true randomness in your music. Break free from algorithmic bubbles wi
 ## Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/vuciv/true-random-shuffle.git
    cd true-random-shuffle
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Configure Spotify API**
+
    - Create a Spotify app at [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
    - Create a `.env` file in the root directory:
      ```
@@ -33,9 +36,15 @@ Experience true randomness in your music. Break free from algorithmic bubbles wi
      - For web: `https://yourdomain.com/redirect`
 
 4. **Run the app**
+
    ```bash
    npm run dev
    ```
+
+   This runs the Expo development server with telemetry disabled.
+
+   Note: The project uses cross-env to set the EXPO_NO_TELEMETRY=1 flag in a cross-platform way.
+   This ensures Expo does not send anonymous usage analytics, and works consistently on macOS, Linux, and Windows.
 
 ## Deployment
 
